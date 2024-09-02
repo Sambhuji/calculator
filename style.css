@@ -40,7 +40,12 @@ body {
     outline: none;
     background-color: rgb(26, 25, 25);
     box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.171);
+    -webkit-tap-highlight-color: transparent;
 }
+.calculator form div input:focus {
+    outline: none;
+}
+
 
 .calculator form div input.equal_to {
     width: 133px;
