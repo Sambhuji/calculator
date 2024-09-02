@@ -36,6 +36,10 @@ body {
     cursor: pointer;
     border-radius: 10px;
     font-size: 1.1rem;
+    border: 0;
+    outline: none;
+    background-color: rgb(26, 25, 25);
+    box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.171);
 }
 
 .calculator form div input.equal_to {
@@ -56,5 +60,6 @@ body {
     color: azure;
     font-size: 1.3rem;
     padding-right: 10px;
+    box-shadow: none;
 
 }
